@@ -1,0 +1,137 @@
+:root {
+  --code-surface: #030711;
+  --code-text: #edf3ff;
+  --code-inline: #15213a;
+  --table-head: #101d35;
+}
+
+.theme-latin {
+  color-scheme: dark;
+  --page: #292723;
+  --surface: #35312b;
+  --surface-raised: #413b32;
+  --text: #f2eadb;
+  --muted: #c8bda9;
+  --accent: #d3a968;
+  --accent-contrast: #211b14;
+  --border: #5a4e3e;
+  --focus: #f2cf91;
+  --danger: #ff9a91;
+  --shadow: 0 16px 42px rgb(0 0 0 / 28%);
+  --code-surface: #211f1b;
+  --code-text: #f2eadb;
+  --code-inline: #494033;
+  --table-head: #453c30;
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--page);
+  color: var(--text);
+}
+
+.theme-latin .reader,
+.theme-latin .import-assistant {
+  border-top-color: #98545a;
+}
+
+.theme-latin .reader h1,
+.theme-latin .reader h2,
+.theme-latin .reader h3,
+.theme-latin .study-heading h1,
+.theme-latin .import-assistant h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.02em;
+}
+
+.theme-latin .reader blockquote {
+  border-left-color: #b87973;
+}
+
+.theme-latin .reader-mode .reader > h1 {
+  margin: 0 auto 46px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.theme-latin .reader-mode .markdown-content {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.9;
+}
+
+.theme-latin .reader-mode .markdown-content p,
+.theme-latin .reader-mode .markdown-content li {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.theme-latin .reader-mode .markdown-content h2 {
+  margin: 2.5em 0 1em;
+  padding: 0.65em 0.85em;
+  border: 0;
+  border-left: 4px solid #98545a;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(90deg, rgb(152 84 90 / 18%), transparent 78%);
+  color: #f0d9ae;
+  font-size: clamp(1.25rem, 2vw, 1.55rem);
+  letter-spacing: 0.015em;
+  text-align: left;
+}
+
+.theme-latin .reader-mode .markdown-content h3 {
+  margin-top: 1.8em;
+  color: #e0aa9f;
+  font-size: 1.12rem;
+  letter-spacing: 0.025em;
+}
+
+.theme-latin .reader-mode .markdown-content li::marker {
+  color: #c28e65;
+}
+
+.theme-latin .reader-mode .markdown-content strong {
+  color: #f1d5a2;
+}
+
+.theme-latin .reader-mode .reader table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.theme-latin .reader-mode .reader th {
+  color: #f2eadb;
+  letter-spacing: 0.025em;
+}
+
+.theme-latin .reader-mode .reader tbody tr:nth-child(even) {
+  background: rgb(255 255 255 / 3%);
+}
+
+.theme-hacker {
+  color-scheme: dark;
+  --page: #0a0a0c;
+  --surface: #111316;
+  --surface-raised: #161a1c;
+  --text: #e5fff0;
+  --muted: #9ab5a5;
+  --accent: #00ff66;
+  --accent-contrast: #06120a;
+  --border: #293a31;
+  --focus: #00f0ff;
+  --danger: #ff737b;
+  --shadow: 0 16px 42px rgb(0 0 0 / 35%);
+  --code-surface: #050607;
+  --code-text: #b7ffd1;
+  --code-inline: #19241d;
+  --table-head: #16231b;
+  font-family: "Cascadia Code", "Fira Code", "Courier New", monospace;
+  background: var(--page);
+  color: var(--text);
+}
+
+.theme-hacker .reader {
+  font-size: 0.94rem;
+}
+
+.theme-hacker .brand-mark,
+.theme-hacker .study-card-icon {
+  box-shadow: 0 0 18px rgb(0 255 102 / 18%);
+}

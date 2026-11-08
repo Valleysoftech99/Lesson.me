@@ -1,0 +1,9 @@
+{
+  "name": "lesson-me",
+  "private": true,
+  "description": "Herramientas para mantener las dependencias locales del portal estático",
+  "dependencies": {
+    "dompurify": "3.4.17",
+    "marked": "18.1.3"
+  }
+}

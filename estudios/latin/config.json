@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "latin",
+  "title": "Latín",
+  "description": "Un espacio para estudiar la lengua y la cultura de Roma.",
+  "theme": "latin",
+  "lessons": [
+    {
+      "id": "clase-01",
+      "title": "Resumen de latín hasta ahora",
+      "path": "estudios/latin/lecciones/clase-01.md"
+    }
+  ]
+}

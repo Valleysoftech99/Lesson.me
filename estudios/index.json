@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "studies": [
+    {
+      "id": "latin",
+      "title": "Latín",
+      "description": "Lengua, gramática y cultura de la antigua Roma.",
+      "icon": "L",
+      "config": "estudios/latin/config.json"
+    }
+  ]
+}
